@@ -1,0 +1,106 @@
+name: HungerGames
+main: HungerGames
+version: 2.0.0
+website: https://galaxygaming.gg
+description: Adds in the hunger games
+authors: [Galaxy Gaming Development Team]
+
+commands:
+   hungergames:
+      description: Uses the hunger games command
+      usage: /<command> <sub command>
+      permission: HungerGames.hg
+      aliases: [hg, survivalgames, sg]
+      
+permissions:
+    HungerGames.*:
+        description: The Mainframe of Hunger Games
+        children:
+            HungerGames.hg: true
+            HungerGames.help: true
+            HungerGames.join: true
+            HungerGames.leave: true
+            HungerGames.spectate: true
+            HungerGames.stats: true
+            HungerGames.info: true
+            HungerGames.setspawn: true
+            HungerGames.vote: true
+            HungerGames.forcestart: true
+            HungerGames.forcestop: true
+            HungerGames.setcorner: true
+            HungerGames.sponsor: true
+            HungerGames.kit: true
+            HungerGames.modify: true
+            HungerGames.convert: true
+            HungerGames.leaderboards: true
+            HungerGames.setworldspawn: true
+            HungerGames.update: true
+            HungerGames.setchests: true
+            HungerGames.cmdGame: true
+            HungerGames.removeArena: true
+    HungerGames.hg:
+        description: Lets you use /hg.
+        default: true
+    HungerGames.kit:
+        description: Lets you use kits during the hunger games.
+        default: true
+    HungerGames.leaderboards:
+        description: Lets you view the leader boards for the hunger games.
+        default: true
+    HungerGames.vote:
+        description: Lets you vote to start the hunger games.
+        default: true
+    HungerGames.help:
+        description: Lets you view the help for the hunger games.
+        default: true    
+    HungerGames.join:
+        description: Lets you join the hunger games.
+        default: true
+    HungerGames.leave:
+        description: Lets you leave the hunger games.
+        default: true
+    HungerGames.spectate:
+        description: Lets you spectate the hunger games.
+        default: true
+    HungerGames.stats:
+        description: Lets you view stats of a player.
+        default: true
+    HungerGames.info:
+        description: Shows the details about the current game.
+        default: true
+    HungerGames.setspawn:
+        description: Lets you set the spawnpoints for the hunger games.
+        default: op
+    HungerGames.forcestart:
+        description: Lets you force start the hunger games.
+        default: op
+    HungerGames.forcestop:
+        description: Lets you force stop the hunger games.
+        default: op
+    HungerGames.setcorner:
+        description: Lets you set the corners for the hunger games.
+        default: op
+    HungerGames.sponsor:
+        description: Lets you sponsor yourself in the hunger games.
+        default: op
+    HungerGames.modify:
+        description: Lets you modify a players stats for the hunger games.
+        default: op
+    HungerGames.convert:
+        description: Lets you conver mysql into yml or yml into mysql for the hunger games.
+        default: op
+    HungerGames.setworldspawn:
+        description: Lets you set the spawn players go to when game is over.
+        default: op
+    HungerGames.update:
+        description: Gets notified if there is an update for Hunger Games.
+        default: op
+    HungerGames.setchests:
+        description: Sets the locations of the chests for a world.
+        default: op
+    HungerGames.cmdGame:
+        description: Allows you to perform commands during a game.
+        default: op
+    HungerGames.removeArena:
+        description: Allows you to remove an arena.
+        default: op

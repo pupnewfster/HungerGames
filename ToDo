@@ -1,0 +1,52 @@
+Permission for seeing messages
+
+Finish buying kits
+Sign Support
+Ability to sponsor more than just yourself.
+
+Multiple arenas per map
+Different max players per arena
+Multiple arenas running at once
+
+Fix any bugs that appear
+
+
+remove /credits because of the /devs command
+
+
+replace spectating with spectator gamemode
+
+drop sponsor stuff on ground if inv full
+
+
+replace timer with bukkit scheduler
+
+
+force respawn on death?? and also switch to spectator automatically?
+
+keep world spawn as a variable instead of creating location each time
+
+make sure spectating players don't have armor potentially?
+
+
+Instead of canceling place events and stuff maybe set as adventure??
+
+error messages for commands when they fail
+
+more error message colors, maybe add a logging class to necessities
+
+improve error messages
+
+more lenient args
+
+make commands as their own commands... and have hg command call them?
+
+like ls pause game when no one is on, also probably require min number of players?
+
+special ability items
+
+create a map data structure like ls has and store it in a file
+
+Use minecraft title system for countdown
+
+Use boss bar for player count remaining, should it be /total start or total for map
